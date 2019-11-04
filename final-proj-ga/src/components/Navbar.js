@@ -44,3 +44,8 @@ const Navbar = () => {
 
 export default Navbar;
 
+
+//original git remote
+//origin  git@git.generalassemb.ly:ap-slater/Final4.git (fetch)
+
+
