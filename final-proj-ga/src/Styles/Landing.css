@@ -1,0 +1,94 @@
+.GoogleApp {
+  display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.GoogleDiv {
+   z-index: 5;
+  width: 520px;
+  height: 200px;
+  background-color: rgba(242, 241, 241, 0.5);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+    padding-top: 48px;
+    border-radius: 10px;
+
+}
+
+
+.GoogleSignin {
+
+      width: 85%;
+      height: 60px;
+      border-radius: 5px;
+      background-color: #4285f4;
+      color: white;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+     cursor: pointer;
+     transition: all .2s;
+}
+
+.GoogleSignin:hover {
+    background-color: #376fcc;
+}
+
+.GoogleSignin > span {
+    display: inline-block;
+    width: 31px;
+    height: 30px;
+    margin-top: 19px;
+    border-radius: 3px;
+   background-color: white;
+
+}
+
+.GoogleSignin > h2 {
+  width: 150px;
+  height: 80px;
+  display: inline-block;
+
+
+}
+
+.Terms {
+  width: 80%;
+  height: 120px;
+  font-size: 70%;
+}
+
+.streamTop {
+  animation: streamTop 3s linear;
+}
+
+.stream {
+  animation: stream 6s infinite;
+}
+.stream2 {
+  animation: streamTwo 9s infinite;
+}
+
+@keyframes streamTop {
+  from {left: -500px;}
+  to {left: 100px}
+}
+
+
+@keyframes stream {
+  from {left: -500px;}
+  to {left: 2000px}
+}
+
+@keyframes streamTwo {
+  from {right: -500px;}
+  to {right: 2000px}
+}
+
+
+
+

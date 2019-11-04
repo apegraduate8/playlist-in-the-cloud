@@ -1,0 +1,8 @@
+
+.Logo {
+      height: 200px;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      transition: width 1s;
+}

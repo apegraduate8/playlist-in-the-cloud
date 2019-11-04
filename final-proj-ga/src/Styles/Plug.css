@@ -1,0 +1,21 @@
+.RadioPlayer {
+      display: flex;
+    flex-direction: column;
+}
+
+.react-audio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.RadioPlayer .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.RadioPlayer button {
+  margin: 10px;
+}

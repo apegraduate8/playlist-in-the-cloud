@@ -1,0 +1,56 @@
+
+/* playlist */
+
+.center {
+  width: 500px;
+  display: flex;
+ /* flex-direction: row;*/
+  flex-wrap: wrap;
+/*  justify-content: space-between;*/
+
+}
+
+.sub-center {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.all {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.main {
+  align-self: flex-start;
+      margin: 50px;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.songPoster {
+
+  height: 150px;
+  margin: 5px;
+  border-radius: 50px;
+
+}
+
+.trashbag {
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+@keyframes  wobble {
+  from {width: 120px;}
+  to { width: 130px; }
+}
+

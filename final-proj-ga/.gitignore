@@ -17,3 +17,13 @@ yarn-debug.log*
 yarn-error.log*
 
 /Authenticate
+<<<<<<< Updated upstream
+=======
+/Database/Users.js
+
+
+
+
+
+
+>>>>>>> Stashed changes

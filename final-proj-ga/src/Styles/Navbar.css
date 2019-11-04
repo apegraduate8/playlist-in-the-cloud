@@ -1,0 +1,39 @@
+
+
+ /*   NAVBAR      */
+
+nav {
+  padding: 5px 0;
+  margin-bottom: 100px;
+}
+
+nav > ul {
+  margin: 5px 0;
+  height: 50px;
+  padding: 2px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+nav  ul > li {
+  list-style: none;
+  margin-right: 20px;
+  color: #615866;
+  border: 2px solid rgba(66, 133, 244, .8);
+  border-radius: 8px;
+  padding: 5px;
+  height: 20px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+
+.streamTop {
+  animation: streamTop 5s linear;
+}
+
+@keyframes streamTop {
+  from {left: -800px;}
+  to {left: -0px}
+}

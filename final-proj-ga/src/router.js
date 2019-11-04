@@ -7,10 +7,9 @@ export default (
   <BrowserRouter>
       <div className="App">
           <Navbar />
-            <Route exact path='/' component={ App } />
-            <Route exact path='/projects' component={ projectsIndex } />
-
+          <Logo />
+          <Route exact path='/' component={ Landing } />
+          <Route exact path='/playlist' component={ Music } />
       </div>
   </BrowserRouter>
-
-  )
+)
